@@ -381,6 +381,7 @@
 
 import { useState, useEffect } from "react"
 import { ArrowRight, Sparkles, Play, Pause, ChevronDown } from "lucide-react"
+import Link from "next/link"
 
 const services = [
   "Exhibition Design",
@@ -478,13 +479,13 @@ export default function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 group flex items-center justify-center">
+              <Link href='/portfolio' className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 group flex items-center justify-center">
                 Explore Our Work
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </button>
-              <button className="border-2 border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 bg-transparent">
+              </Link>
+              <Link href='/contact' className="border-2 border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 bg-transparent">
                 Start Your Project
-              </button>
+              </Link>
             </div>
 
             {/* Stats */}
