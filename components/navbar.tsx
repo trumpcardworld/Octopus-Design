@@ -46,7 +46,7 @@ export default function Navbar() {
                   {item.name}
                 </Link>
               ))}
-              <Button className="bg-teal-600 hover:bg-teal-700">Get Quote</Button>
+              <Link href='/contact' className="rounded-sm font-semibold text-white p-1 px-2 bg-teal-600 hover:bg-teal-700">Get Quote</Link>
             </div>
           </div>
 
@@ -72,7 +72,7 @@ export default function Navbar() {
                   {item.name}
                 </Link>
               ))}
-              <Link href='/contact' className="w-full mt-2 bg-teal-600 hover:bg-teal-700">Get Quote</Link>
+              {/* <Link href='/contact' className="w-full mt-2 rounded-sm font-semibold text-white p-1 px-2 bg-teal-600 hover:bg-teal-700">Get Quote</Link> */}
             </div>
           </div>
         )}
