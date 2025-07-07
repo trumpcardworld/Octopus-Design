@@ -8,7 +8,7 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Octopus Designs - Creative Design & Printing Solutions",
+  title: "Octopus Designs Pvt. Ltd. - Creative Design & Printing Solutions",
   description:
     "Professional design and printing services including exhibitions, brochures, packaging, and more. Bringing your vision to life with creative excellence.",
   keywords:
