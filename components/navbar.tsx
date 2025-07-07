@@ -72,7 +72,7 @@ export default function Navbar() {
                   {item.name}
                 </Link>
               ))}
-              <Button className="w-full mt-2 bg-teal-600 hover:bg-teal-700">Get Quote</Button>
+              <Link href='/contact' className="w-full mt-2 bg-teal-600 hover:bg-teal-700">Get Quote</Link>
             </div>
           </div>
         )}
