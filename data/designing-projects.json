@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ds001",
+    "title": "Ambika Engineering Works",
+    "category": "Designing",
+    "image": "/design-images/1.jpg",
+    "client": "TechFlow Solutions",
+    "year": "2024"
+  },
+  {
+    "id": "ds002",
+    "title": "Raj Group",
+    "category": "Designing",
+    "image": "/design-images/2.jpg",
+    "client": "Bella Cosmetics",
+    "year": "2023"
+  },
+  {
+    "id": "ds003",
+    "title": "Kaiser Technology driven Iniatiative",
+    "category": "Designing",
+    "image": "/design-images/3.jpg",
+    "client": "Global Industries",
+    "year": "2023"
+  },
+  {
+    "id": "ds004",
+    "title": "ACPL",
+    "category": "Designing",
+    "image": "/design-images/4.jpg",
+    "client": "Spice Garden Restaurant",
+    "year": "2024"
+  },
+  {
+    "id": "ds005",
+    "title": "Paloma Industries",
+    "category": "Designing",
+    "image": "/design-images/5.jpg",
+    "client": "ShopEasy Online",
+    "year": "2024"
+  },
+  {
+    "id": "ds006",
+    "title": "Precikot",
+    "category": "Designing",
+    "image": "/design-images/6.jpg",
+    "client": "HealthCare Plus",
+    "year": "2024"
+  },
+  {
+    "id": "ds007",
+    "title": "Apex Engineers",
+    "category": "Designing",
+    "image": "/design-images/7.jpg",
+    "client": "Apex Manufacturing",
+    "year": "2023"
+  },
+  {
+    "id": "ds008",
+    "title": "Kiri Dyes and Chemicals Pvt Ltd",
+    "category": "Designing",
+    "image": "/design-images/8.jpg",
+    "client": "Metro Bank",
+    "year": "2023"
+  },
+   {
+    "id": "ds009",
+    "title": "NKR Engineers Private Limited",
+    "category": "Designing",
+    "image": "/design-images/9.jpg",
+    "client": "HealthCare Plus",
+    "year": "2024"
+  },
+  {
+    "id": "ds010",
+    "title": "Cemach Machineries",
+    "category": "Designing",
+    "image": "/design-images/10.jpg",
+    "client": "Apex Manufacturing",
+    "year": "2023"
+  },
+  {
+    "id": "ds011",
+    "title": "Hallmark",
+    "category": "Designing",
+    "image": "/design-images/11.jpg",
+    "client": "Metro Bank",
+    "year": "2023"
+  },
+   {
+    "id": "ds012",
+    "title": "System & Solutions",
+    "category": "Designing",
+    "image": "/design-images/12.jpg",
+    "client": "HealthCare Plus",
+    "year": "2024"
+  },
+  {
+    "id": "ds013",
+    "title": "Saumya Technocrates",
+    "category": "Designing",
+    "image": "/design-images/13.jpg",
+    "client": "Apex Manufacturing",
+    "year": "2023"
+  },
+  {
+    "id": "ds014",
+    "title": "Mascot",
+    "category": "Designing",
+    "image": "/design-images/14.jpg",
+    "client": "Metro Bank",
+    "year": "2023"
+  },
+  {
+    "id": "ds015",
+    "title": "Surface Coating Technologies",
+    "category": "Designing",
+    "image": "/design-images/15.jpg",
+    "client": "HealthCare Plus",
+    "year": "2024"
+  },
+  {
+    "id": "ds016",
+    "title": "Solace Engineers Pvt Ltd",
+    "category": "Designing",
+    "image": "/design-images/16.jpg",
+    "client": "Apex Manufacturing",
+    "year": "2023"
+  },
+  {
+    "id": "ds017",
+    "title": "Spectra Jai Exports Pvt Ltd",
+    "category": "Designing",
+    "image": "/design-images/17.jpg",
+    "client": "Metro Bank",
+    "year": "2023"
+  },
+   {
+    "id": "ds018",
+    "title": "Angel",
+    "category": "Designing",
+    "image": "/design-images/18.jpg",
+    "client": "HealthCare Plus",
+    "year": "2024"
+  },
+  {
+    "id": "ds019",
+    "title": "Park Avenue",
+    "category": "Designing",
+    "image": "/design-images/19.jpg",
+    "client": "Apex Manufacturing",
+    "year": "2023"
+  },
+  {
+    "id": "ds020",
+    "title": "Capious Roadtech Pvt. Ltd.",
+    "category": "Designing",
+    "image": "/design-images/20.jpg",
+    "client": "Metro Bank",
+    "year": "2023"
+  }
+]

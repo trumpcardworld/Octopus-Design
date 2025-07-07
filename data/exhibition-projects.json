@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ex001",
+    "title": "Orinate Print Tech Pvt. Ltd.",
+    "category": "Exhibition",
+    "image": "/exhibition-images/1.jpg", 
+    "client": "Fashion Forward Ltd.",
+    "year": "2024"
+  },
+  {
+    "id": "ex002",
+    "title": "Alteem",
+    "category": "Exhibition",
+    "image": "/exhibition-images/2.jpg",
+    "client": "TechFlow Solutions",
+    "year": "2024"
+  },
+  {
+    "id": "ex003",
+    "title": "Saumya Technocrates",
+    "category": "Exhibition",
+    "image": "/exhibition-images/3.jpg",
+    "client": "HealthCare Plus",
+    "year": "2023"
+  },
+  {
+    "id": "ex004",
+    "title": "Apex Engineers",
+    "category": "Exhibition",
+    "image": "/exhibition-images/4.jpg",
+    "client": "Auto Dynamics",
+    "year": "2023"
+  },
+  {
+    "id": "ex005",
+    "title": "Spark Engineering",
+    "category": "Exhibition",
+    "image": "/exhibition-images/5.jpg",
+    "client": "Spice Garden Restaurant",
+    "year": "2024"
+  },
+  {
+    "id": "ex006",
+    "title": "Pace",
+    "category": "Exhibition",
+    "image": "/exhibition-images/6.jpg",
+    "client": "Green Energy Co",
+    "year": "2023"
+  },
+    {
+    "id": "ex007",
+    "title": "Ambika Engineering Works",
+    "category": "Exhibition",
+    "image": "/exhibition-images/7.jpg",
+    "client": "Green Energy Co",
+    "year": "2023"
+  },
+    {
+    "id": "ex008",
+    "title": "Raj Polymers",
+    "category": "Exhibition",
+    "image": "/exhibition-images/8.jpg",
+    "client": "Green Energy Co",
+    "year": "2023"
+  }
+]
