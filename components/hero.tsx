@@ -552,7 +552,7 @@ export default function Hero() {
                       <div className="w-3 h-3 bg-teal-500 rounded-full animate-pulse"></div>
                       <span className="text-sm text-gray-600">Ready to create</span>
                     </div>
-                    <div className="text-teal-600 text-sm font-medium">Let's talk →</div>
+                    <Link href='/contact' className="text-teal-600 text-sm font-medium">Let's talk →</Link>
                   </div>
                 </div>
               </div>
