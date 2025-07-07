@@ -439,8 +439,10 @@ export default function Hero() {
                   </span>
                   <div className="absolute -bottom-2 left-0 w-1/2 h-1 bg-teal-600 transform origin-left animate-scale-x"></div>
                 </span>
-                <br className="mb-8" />
-                <span className="text-gray-700">That Inspires</span>
+                <br />
+                 <div className="mt-2">
+                  <span className="text-gray-700">That Inspires</span>
+                </div>
               </h1>
 
               {/* Service Controls */}
