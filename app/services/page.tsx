@@ -90,7 +90,7 @@ const services = [
       "3D Visualization",
       "Project Management",
     ],
-    price: "Starting from ₹50,000",
+    price: "Starting from ₹1,00,000",
     color: "bg-teal-100 text-teal-600",
   },
   {
