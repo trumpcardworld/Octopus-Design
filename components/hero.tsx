@@ -416,12 +416,12 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-white">
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 z-10">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div className="space-y-8">
             {/* Clean Badge */}
             <div className="inline-flex items-center space-x-3 bg-teal-50 text-teal-800 px-6 py-3 rounded-full text-sm font-medium border border-teal-200 hover:bg-teal-100 transition-all duration-300 group">
               <Sparkles className="h-4 w-4 text-teal-600 animate-pulse" />
-              <span>Award-Winning Creative Studio</span>
+              <span>Creative Design Solutions</span>
               <div className="w-2 h-2 bg-teal-500 rounded-full animate-pulse"></div>
             </div>
 
