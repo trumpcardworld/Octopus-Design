@@ -4,40 +4,34 @@ import { ExternalLink } from "lucide-react"
 
 const portfolioItems = [
   {
-    title: "Tech Startup Branding",
-    category: "Identity",
-    image: "/placeholder.svg?height=300&width=400",
-    description: "Complete brand identity for innovative tech startup including logo, guidelines, and collateral.",
-  },
-  {
-    title: "Fashion Exhibition Booth",
+    title: "Orinate Print Tech Pvt. Ltd.",
     category: "Exhibition",
-    image: "/placeholder.svg?height=300&width=400",
-    description: "Award-winning exhibition booth design for international fashion trade show.",
+    image: "/exhibition-images/1.jpg",
   },
   {
-    title: "Luxury Product Packaging",
-    category: "Packaging",
-    image: "/placeholder.svg?height=300&width=400",
-    description: "Premium packaging design for luxury cosmetics brand with sustainable materials.",
+    title: "Alteem",
+    category: "Exhibition",
+    image: "/exhibition-images/2.jpg",
   },
   {
-    title: "Corporate Annual Report",
-    category: "Brochure",
-    image: "/placeholder.svg?height=300&width=400",
-    description: "Comprehensive annual report design with infographics and data visualization.",
+    title: "Saumya Technocrates",
+    category: "Exhibition",
+    image: "/exhibition-images/3.jpg",
   },
   {
-    title: "Restaurant Marketing Campaign",
-    category: "Advertisement",
-    image: "/placeholder.svg?height=300&width=400",
-    description: "Multi-channel advertising campaign including print, digital, and outdoor media.",
+    title: "ACPL",
+    category: "Designing",
+    image: "/design-images/4.jpg",
   },
   {
-    title: "Corporate Website Redesign",
-    category: "Website",
-    image: "/placeholder.svg?height=300&width=400",
-    description: "Modern, responsive website redesign with improved user experience and conversion rates.",
+    title: "Apex Engineers",
+    category: "Designing",
+    image: "/design-images/7.jpg",
+  },
+  {
+    title: "Solace Engineers Pvt Ltd",
+    category: "Designing",
+    image: "/design-images/16.jpg",
   },
 ]
 
@@ -72,7 +66,7 @@ export default function Portfolio() {
                   </Badge>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{item.title}</h3>
-                <p className="text-gray-600">{item.description}</p>
+                
               </CardContent>
             </Card>
           ))}
