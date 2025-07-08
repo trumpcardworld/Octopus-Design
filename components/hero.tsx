@@ -145,13 +145,13 @@
 //         <div className="absolute top-40 right-20 w-24 h-24 bg-teal-200 rotate-45 opacity-40 animate-bounce-slow"></div>
 //         <div className="absolute bottom-32 left-1/4 w-40 h-40 bg-teal-50 rounded-full opacity-50"></div>
 //         <div className="absolute bottom-20 right-1/3 w-20 h-20 bg-teal-300 opacity-30 animate-spin-slow"></div> */}
-        
+
 //         {/* Blue Accents */}
 //         {/* <div className="absolute top-1/3 right-10 w-16 h-16 bg-blue-200 rounded-full opacity-50 animate-float"></div>
 //         <div className="absolute bottom-1/2 left-20 w-28 h-28 bg-blue-100 opacity-40"></div> */}
 
 //         {/* Subtle Grid */}
-    
+
 //       </div>
 
 //       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 z-10">
@@ -327,47 +327,47 @@
 //           0%, 100% { transform: translateY(0px); }
 //           50% { transform: translateY(-15px); }
 //         }
-        
+
 //         @keyframes bounce-slow {
 //           0%, 100% { transform: translateY(0); }
 //           50% { transform: translateY(-8px); }
 //         }
-        
+
 //         @keyframes spin-slow {
 //           from { transform: rotate(0deg); }
 //           to { transform: rotate(360deg); }
 //         }
-        
+
 //         @keyframes fade-in {
 //           0% { opacity: 0; transform: translateY(10px); }
 //           100% { opacity: 1; transform: translateY(0); }
 //         }
-        
+
 //         @keyframes scale-x {
 //           0% { transform: scaleX(0); }
 //           100% { transform: scaleX(1); }
 //         }
-        
+
 //         .animate-float {
 //           animation: float 4s ease-in-out infinite;
 //         }
-        
+
 //         .animate-bounce-slow {
 //           animation: bounce-slow 3s ease-in-out infinite;
 //         }
-        
+
 //         .animate-spin-slow {
 //           animation: spin-slow 8s linear infinite;
 //         }
-        
+
 //         .animate-fade-in {
 //           animation: fade-in 0.5s ease-out;
 //         }
-        
+
 //         .animate-scale-x {
 //           animation: scale-x 0.6s ease-out;
 //         }
-        
+
 //         .shadow-3xl {
 //           box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25);
 //         }
@@ -382,6 +382,7 @@
 import { useState, useEffect } from "react"
 import { ArrowRight, Sparkles, Play, Pause, ChevronDown } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 
 const services = [
   "Exhibition Design",
@@ -432,16 +433,16 @@ export default function Hero() {
                 We Create
                 <br />
                 <span className="relative inline-block">
-                  <span 
+                  <span
                     className="text-[#17688C] inline-block transition-all duration-500 ease-in-out"
                     style={{ minWidth: '280px' }}
                   >
                     {services[currentService]}
                   </span>
-                  <div className="absolute -bottom-2 left-0 w-1/2 h-1 bg-[#17688C] transform origin-left animate-scale-x"></div>
+                  <div className="absolute -bottom-4 left-0 w-1/2 h-1 bg-[#17688C] transform origin-left animate-scale-x"></div>
                 </span>
                 <br />
-                 <div className="mt-2">
+                <div className="mt-6">
                   <span className="text-gray-700">That Inspires</span>
                 </div>
               </h1>
@@ -458,11 +459,10 @@ export default function Hero() {
                   {services.map((_, index) => (
                     <button
                       key={index}
-                      className={`h-2 rounded-full transition-all duration-300 cursor-pointer ${
-                        index === currentService 
-                          ? "bg-[#17688C] w-8" 
+                      className={`h-2 rounded-full transition-all duration-300 cursor-pointer ${index === currentService
+                          ? "bg-[#17688C] w-8"
                           : "bg-[#045b7c] w-2 hover:bg-[#106484]"
-                      }`}
+                        }`}
                       onClick={() => setCurrentService(index)}
                     />
                   ))}
@@ -492,7 +492,7 @@ export default function Hero() {
               {[
                 { number: "500+", label: "Projects" },
                 { number: "50+", label: "Clients" },
-                { number: "5+", label: "Years"},
+                { number: "5+", label: "Years" },
               ].map((stat, index) => (
                 <div key={index} className="text-center group cursor-pointer">
                   <div className="text-3xl font-bold text-[#17688C] mb-2 group-hover:scale-110 transition-transform duration-300">
@@ -514,7 +514,13 @@ export default function Hero() {
                   <div className="relative inline-block">
                     <div className="w-32 h-32 bg-[#c7d9e2] rounded-full flex items-center justify-center mb-4 group-hover:bg-[#7cacbe] transition-colors duration-300">
                       <div className="text-6xl animate-bounce-slow group-hover:animate-spin-slow transition-all duration-500">
-                        🐙
+                        <Image
+                          src='/apple-touch-icon.png'
+                          alt="Octopus Designs"
+                          width={80}
+                          height={80}
+                          className=""
+                        />
                       </div>
                     </div>
                     {/* <div className="absolute -top-2 -right-2 w-6 h-6 bg-teal-500 rounded-full animate-ping"></div>
