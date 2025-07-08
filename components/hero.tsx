@@ -533,9 +533,9 @@ export default function Hero() {
                 {/* Feature Grid */}
                 <div className="grid grid-cols-2 gap-4">
                   {[
-                    { icon: "🎨", title: "Design", color: "bg-teal-50 hover:bg-[#7cacbe]" },
+                    { icon: "🎨", title: "Design", color: "bg-cyan-50 hover:bg-[#7cacbe]" },
                     { icon: "🚀", title: "Innovation", color: "bg-blue-50 hover:bg-blue-100" },
-                    { icon: "💡", title: "Strategy", color: "bg-teal-50 hover:bg-[#7cacbe]" },
+                    { icon: "💡", title: "Strategy", color: "bg-cyan-50 hover:bg-[#7cacbe]" },
                     { icon: "⭐", title: "Quality", color: "bg-blue-50 hover:bg-blue-100" },
                   ].map((item, index) => (
                     <div
