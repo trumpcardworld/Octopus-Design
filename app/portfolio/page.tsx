@@ -77,8 +77,8 @@ export default function PortfolioPage() {
                 variant={activeCategory === category ? "default" : "outline"}
                 className={`px-6 py-2 transition-all duration-300 ${
                   activeCategory === category
-                    ? "bg-[#17688C] hover:bg-teal-700 text-white"
-                    : "hover:bg-teal-50 hover:text-[#17688C] hover:border-[#17688C]"
+                    ? "bg-[#17688C] hover:bg-[#106484] text-white"
+                    : "hover:bg-[#c7d9e2] hover:text-[#17688C] hover:border-[#17688C]"
                 }`}
               >
                 {category}
