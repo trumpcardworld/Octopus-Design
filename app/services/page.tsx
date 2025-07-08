@@ -91,7 +91,7 @@ const services = [
       "Project Management",
     ],
     price: "Starting from ₹1,00,000",
-    color: "bg-teal-100 text-teal-600",
+    color: "bg-teal-100 text-[#17688C]",
   },
   {
     icon: Camera,
@@ -157,7 +157,7 @@ export default function ServicesPage() {
   return (
     <main className="pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-teal-50 to-blue-50 py-20">
+      <section className="bg-gradient-to-br from-cyan-50 to-blue-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">Our Services</h1>
@@ -180,7 +180,7 @@ export default function ServicesPage() {
                     <div className={`w-12 h-12 rounded-lg ${service.color} flex items-center justify-center`}>
                       <service.icon className="h-6 w-6" />
                     </div>
-                    <Badge variant="outline" className="text-teal-600 border-teal-600">
+                    <Badge variant="outline" className="text-[#17688C] border-[#17688C]">
                       {service.price}
                     </Badge>
                   </div>
@@ -191,12 +191,12 @@ export default function ServicesPage() {
                   <div className="space-y-3 mb-6">
                     {service.features.map((feature, idx) => (
                       <div key={idx} className="flex items-center space-x-2">
-                        <CheckCircle className="h-4 w-4 text-teal-600" />
+                        <CheckCircle className="h-4 w-4 text-[#17688C]" />
                         <span className="text-gray-700">{feature}</span>
                       </div>
                     ))}
                   </div>
-                  <Button className="w-full bg-teal-600 hover:bg-teal-700">
+                  <Button className="w-full bg-[#17688C] hover:bg-teal-700">
                     <Link href="/contact">Get Quote</Link>
                   </Button>
                 </CardContent>
@@ -220,7 +220,7 @@ export default function ServicesPage() {
           <div className="grid md:grid-cols-5 gap-8">
             {process.map((step, index) => (
               <div key={index} className="text-center">
-                <div className="bg-teal-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                <div className="bg-[#17688C] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                   {step.step}
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{step.title}</h3>
@@ -232,20 +232,20 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-teal-600 text-white">
+      <section className="py-20 bg-[#17688C] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Start Your Project?</h2>
           <p className="text-xl text-teal-100 mb-8 max-w-2xl mx-auto">
             Contact us today for a free consultation and let's discuss how we can help bring your vision to life.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" className="bg-white text-teal-600 hover:bg-gray-100">
+            <Button size="lg" variant="secondary" className="bg-white text-[#17688C] hover:bg-gray-100">
               <Link href="/contact">Get Free Quote</Link>
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-teal-600 bg-transparent"
+              className="border-white text-white hover:bg-white hover:text-[#17688C] bg-transparent"
             >
               <Link href="/portfolio">View Our Work</Link>
             </Button>

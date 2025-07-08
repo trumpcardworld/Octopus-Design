@@ -39,7 +39,7 @@ export default function ContactPage() {
   return (
     <main className="pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-teal-50 to-blue-50 py-20">
+      <section className="bg-gradient-to-br from-cyan-50 to-blue-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">Get In Touch</h1>
@@ -59,7 +59,7 @@ export default function ContactPage() {
               <Card className="shadow-lg">
                 <CardHeader>
                   <CardTitle className="text-2xl flex items-center">
-                    <MessageCircle className="h-6 w-6 mr-2 text-teal-600" />
+                    <MessageCircle className="h-6 w-6 mr-2 text-[#17688C]" />
                     Send us a message
                   </CardTitle>
                   <p className="text-gray-600">Fill out the form below and we'll get back to you within 24 hours.</p>
@@ -188,7 +188,7 @@ export default function ContactPage() {
                       />
                     </div>
 
-                    <Button type="submit" className="w-full bg-teal-600 hover:bg-teal-700 text-lg py-3">
+                    <Button type="submit" className="w-full bg-[#17688C] hover:bg-teal-700 text-lg py-3">
                       <Send className="h-5 w-5 mr-2" />
                       Send Message
                     </Button>
@@ -204,7 +204,7 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent className="space-y-6">
                   <div className="flex items-start space-x-4">
-                    <MapPin className="h-6 w-6 text-teal-600 mt-1" />
+                    <MapPin className="h-6 w-6 text-[#17688C] mt-1" />
                     <div>
                       <p className="font-semibold text-gray-900">Our Office</p>
                       <p className="text-gray-600">
@@ -220,7 +220,7 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex items-center space-x-4">
-                    <Phone className="h-6 w-6 text-teal-600" />
+                    <Phone className="h-6 w-6 text-[#17688C]" />
                     <div>
                       <p className="font-semibold text-gray-900">Phone</p>
                       <p className="text-gray-600">+91 98765 43210</p>
@@ -229,7 +229,7 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex items-center space-x-4">
-                    <Mail className="h-6 w-6 text-teal-600" />
+                    <Mail className="h-6 w-6 text-[#17688C]" />
                     <div>
                       <p className="font-semibold text-gray-900">Email</p>
                       <p className="text-gray-600">info@octopusdesigns.com</p>
@@ -238,7 +238,7 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex items-start space-x-4">
-                    <Clock className="h-6 w-6 text-teal-600 mt-1" />
+                    <Clock className="h-6 w-6 text-[#17688C] mt-1" />
                     <div>
                       <p className="font-semibold text-gray-900">Business Hours</p>
                       <p className="text-gray-600">
@@ -260,27 +260,27 @@ export default function ContactPage() {
                 <CardContent>
                   <ul className="space-y-3 text-gray-600">
                     <li className="flex items-center">
-                      <div className="w-2 h-2 bg-teal-600 rounded-full mr-3"></div>
+                      <div className="w-2 h-2 bg-[#17688C] rounded-full mr-3"></div>
                       5+ Years of Experience
                     </li>
                     <li className="flex items-center">
-                      <div className="w-2 h-2 bg-teal-600 rounded-full mr-3"></div>
+                      <div className="w-2 h-2 bg-[#17688C] rounded-full mr-3"></div>
                       500+ Successful Projects
                     </li>
                     <li className="flex items-center">
-                      <div className="w-2 h-2 bg-teal-600 rounded-full mr-3"></div>
+                      <div className="w-2 h-2 bg-[#17688C] rounded-full mr-3"></div>
                       24/7 Customer Support
                     </li>
                     <li className="flex items-center">
-                      <div className="w-2 h-2 bg-teal-600 rounded-full mr-3"></div>
+                      <div className="w-2 h-2 bg-[#17688C] rounded-full mr-3"></div>
                       Competitive Pricing
                     </li>
                     <li className="flex items-center">
-                      <div className="w-2 h-2 bg-teal-600 rounded-full mr-3"></div>
+                      <div className="w-2 h-2 bg-[#17688C] rounded-full mr-3"></div>
                       Quick Turnaround Time
                     </li>
                     <li className="flex items-center">
-                      <div className="w-2 h-2 bg-teal-600 rounded-full mr-3"></div>
+                      <div className="w-2 h-2 bg-[#17688C] rounded-full mr-3"></div>
                       100% Satisfaction Guarantee
                     </li>
                   </ul>
@@ -291,7 +291,7 @@ export default function ContactPage() {
                 <CardContent className="p-6">
                   <h3 className="text-lg font-semibold text-teal-800 mb-2">Need Immediate Help?</h3>
                   <p className="text-teal-700 mb-4">Call us directly for urgent projects or quick questions.</p>
-                  <Button className="w-full bg-teal-600 hover:bg-teal-700">
+                  <Button className="w-full bg-[#17688C] hover:bg-teal-700">
                     <Phone className="h-4 w-4 mr-2" />
                     Call Now: +91 98765 43210
                   </Button>

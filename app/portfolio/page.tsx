@@ -54,7 +54,7 @@ export default function PortfolioPage() {
   return (
     <main className="pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-teal-50 to-blue-50 py-20">
+      <section className="bg-gradient-to-br from-cyan-50 to-blue-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">Our Portfolio</h1>
@@ -77,8 +77,8 @@ export default function PortfolioPage() {
                 variant={activeCategory === category ? "default" : "outline"}
                 className={`px-6 py-2 transition-all duration-300 ${
                   activeCategory === category
-                    ? "bg-teal-600 hover:bg-teal-700 text-white"
-                    : "hover:bg-teal-50 hover:text-teal-600 hover:border-teal-600"
+                    ? "bg-[#17688C] hover:bg-teal-700 text-white"
+                    : "hover:bg-teal-50 hover:text-[#17688C] hover:border-[#17688C]"
                 }`}
               >
                 {category}
@@ -137,7 +137,7 @@ export default function PortfolioPage() {
                         className={`absolute top-4 left-4 ${
                           project.category === "Exhibition"
                             ? "bg-purple-600 hover:bg-purple-700"
-                            : "bg-teal-600 hover:bg-teal-700"
+                            : "bg-[#17688C] hover:bg-teal-700"
                         }`}
                       >
                         {project.category}
@@ -152,7 +152,7 @@ export default function PortfolioPage() {
                         </div> */}
                       </div>
                       {/* <p className="text-gray-600 mb-3 line-clamp-2">{project.description}</p> */}
-                      {/* <div className="flex items-center text-sm text-teal-600 font-medium mb-4">
+                      {/* <div className="flex items-center text-sm text-[#17688C] font-medium mb-4">
                         <Users className="h-4 w-4 mr-1" />
                         Client: {project.client}
                       </div> */}
@@ -171,7 +171,7 @@ export default function PortfolioPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-teal-600 mb-2">{allProjects.length}+</div>
+              <div className="text-4xl font-bold text-[#17688C] mb-2">{allProjects.length}+</div>
               <div className="text-gray-600">Total Projects</div>
             </div>
             <div>
@@ -179,11 +179,11 @@ export default function PortfolioPage() {
               <div className="text-gray-600">Exhibition Projects</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-teal-600 mb-2">{designingProjects.length}+</div>
+              <div className="text-4xl font-bold text-[#17688C] mb-2">{designingProjects.length}+</div>
               <div className="text-gray-600">Design Projects</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-teal-600 mb-2">98%</div>
+              <div className="text-4xl font-bold text-[#17688C] mb-2">98%</div>
               <div className="text-gray-600">Client Satisfaction</div>
             </div>
           </div>
@@ -191,20 +191,20 @@ export default function PortfolioPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-teal-600 text-white">
+      <section className="py-20 bg-[#17688C] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Create Something Amazing?</h2>
           <p className="text-xl text-teal-100 mb-8 max-w-2xl mx-auto">
             Let's discuss your project and create something that will make your brand stand out from the competition.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" className="bg-white text-teal-600 hover:bg-gray-100">
+            <Button size="lg" variant="secondary" className="bg-white text-[#17688C] hover:bg-gray-100">
               <Link href="/contact">Start Your Project</Link>
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-teal-600 bg-transparent"
+              className="border-white text-white hover:bg-white hover:text-[#17688C] bg-transparent"
             >
               <Link href="/services">View Services</Link>
             </Button>

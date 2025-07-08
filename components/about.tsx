@@ -46,8 +46,8 @@ export default function About() {
             <div className="grid grid-cols-2 gap-6">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
-                  <div className="bg-teal-100 w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-3">
-                    <stat.icon className="h-6 w-6 text-teal-600" />
+                  <div className="bg-[#c7d9e2] w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-3">
+                    <stat.icon className="h-6 w-6 text-[#045b7c]" />
                   </div>
                   <div className="text-2xl font-bold text-gray-900">{stat.value}</div>
                   <div className="text-gray-600">{stat.label}</div>
@@ -59,7 +59,7 @@ export default function About() {
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Our Values</h3>
             {values.map((value, index) => (
-              <Card key={index} className="border-l-4 border-l-teal-600">
+              <Card key={index} className="border-l-4 border-l-[#17688c]">
                 <CardContent className="p-6">
                   <h4 className="text-xl font-semibold text-gray-900 mb-2">{value.title}</h4>
                   <p className="text-gray-600">{value.description}</p>

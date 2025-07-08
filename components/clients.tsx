@@ -78,19 +78,19 @@ export default function Clients() {
         {/* Client stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 text-center">
           <div>
-            <div className="text-3xl font-bold text-teal-600 mb-2">50+</div>
+            <div className="text-3xl font-bold text-[#17688c] mb-2">50+</div>
             <div className="text-gray-600">Happy Clients</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-teal-600 mb-2">500+</div>
+            <div className="text-3xl font-bold text-[#17688c] mb-2">500+</div>
             <div className="text-gray-600">Projects Delivered</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-teal-600 mb-2">98%</div>
+            <div className="text-3xl font-bold text-[#17688c] mb-2">98%</div>
             <div className="text-gray-600">Client Satisfaction</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-teal-600 mb-2">5+</div>
+          <div className="text-3xl font-bold text-[#17688c] mb-2">5+</div>
             <div className="text-gray-600">Years Experience</div>
           </div>
         </div>

@@ -57,7 +57,7 @@ export default function AboutPage() {
   return (
     <main className="pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-teal-50 to-blue-50 py-20">
+      <section className="bg-gradient-to-br from-cyan-50 to-blue-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">About Octopus Designs</h1>
@@ -111,8 +111,8 @@ export default function AboutPage() {
             {values.map((value, index) => (
               <Card key={index} className="text-center hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <div className="bg-teal-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <value.icon className="h-8 w-8 text-teal-600" />
+                  <div className="bg-[#c7d9e2] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <value.icon className="h-8 w-8 text-[#17688c]" />
                   </div>
                   <CardTitle className="text-xl">{value.title}</CardTitle>
                 </CardHeader>
@@ -156,7 +156,7 @@ export default function AboutPage() {
       </section> */}
 
       {/* Stats Section */}
-      <section className="py-20 bg-teal-600 text-white">
+      <section className="py-20 bg-[#17688c] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>

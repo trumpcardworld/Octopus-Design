@@ -54,6 +54,7 @@ const config: Config = {
           foreground: "hsl(var(--card-foreground))",
         },
         teal: {
+          primary: '#075981',
           50: "#f0fdfa",
           100: "#ccfbf1",
           200: "#99f6e4",

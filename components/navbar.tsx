@@ -46,7 +46,7 @@ export default function Navbar() {
                   {item.name}
                 </Link>
               ))}
-              <Link href='/contact' className="rounded-sm font-semibold text-white p-1 px-2 bg-teal-600 hover:bg-teal-700">Get Quote</Link>
+              <Link href='/contact' className="rounded-sm font-semibold text-white p-1 px-2 bg-[#17688C] hover:bg-[#106484">Get Quote</Link>
             </div>
           </div>
 

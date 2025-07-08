@@ -62,7 +62,7 @@ export default function Portfolio() {
               </div>
               <CardContent className="p-6">
                 <div className="flex items-center justify-between mb-3">
-                  <Badge variant="secondary" className="bg-teal-100 text-teal-800">
+                  <Badge variant="secondary" className="bg-[#c7d9e2] text-[#106484]">
                     {item.category}
                   </Badge>
                 </div>

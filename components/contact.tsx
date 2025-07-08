@@ -108,7 +108,7 @@ export default function Contact() {
                     />
                   </div>
 
-                  <Button type="submit" className="w-full bg-teal-600 hover:bg-teal-700">
+                  <Button type="submit" className="w-full bg-[#17688C] hover:bg-teal-700">
                     Send Message
                   </Button>
                 </form>
@@ -123,7 +123,7 @@ export default function Contact() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <MapPin className="h-5 w-5 text-teal-600 mt-1" />
+                  <MapPin className="h-5 w-5 text-[#17688C] mt-1" />
                   <div>
                     <p className="font-medium">Address</p>
                     <p className="text-gray-600">
@@ -137,7 +137,7 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-center space-x-3">
-                  <Phone className="h-5 w-5 text-teal-600" />
+                  <Phone className="h-5 w-5 text-[#17688C]" />
                   <div>
                     <p className="font-medium">Phone</p>
                     <p className="text-gray-600">+91 98765 43210</p>
@@ -145,7 +145,7 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-center space-x-3">
-                  <Mail className="h-5 w-5 text-teal-600" />
+                  <Mail className="h-5 w-5 text-[#17688C]" />
                   <div>
                     <p className="font-medium">Email</p>
                     <p className="text-gray-600">info@octopusdesigns.com</p>
@@ -153,7 +153,7 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start space-x-3">
-                  <Clock className="h-5 w-5 text-teal-600 mt-1" />
+                  <Clock className="h-5 w-5 text-[#17688C] mt-1" />
                   <div>
                     <p className="font-medium">Business Hours</p>
                     <p className="text-gray-600">

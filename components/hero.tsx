@@ -420,10 +420,10 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div className="space-y-8">
             {/* Clean Badge */}
-            <div className="inline-flex items-center space-x-3 bg-teal-50 text-teal-800 px-6 py-3 rounded-full text-sm font-medium border border-teal-200 hover:bg-teal-100 transition-all duration-300 group">
-              <Sparkles className="h-4 w-4 text-teal-600 animate-pulse" />
+            <div className="inline-flex items-center space-x-3  text-[#106484] px-6 py-3 rounded-full text-sm font-medium border border-[#518ca5] hover:bg-[#c7d9e2] transition-all duration-300 group">
+              <Sparkles className="h-4 w-4 text-[#17688C] animate-pulse" />
               <span>Creative Design Solutions</span>
-              <div className="w-2 h-2 bg-teal-500 rounded-full animate-pulse"></div>
+              <div className="w-2 h-2 bg-[#106484] rounded-full animate-pulse"></div>
             </div>
 
             {/* Main Heading with Fixed Layout */}
@@ -433,12 +433,12 @@ export default function Hero() {
                 <br />
                 <span className="relative inline-block">
                   <span 
-                    className="text-teal-600 inline-block transition-all duration-500 ease-in-out"
+                    className="text-[#17688C] inline-block transition-all duration-500 ease-in-out"
                     style={{ minWidth: '280px' }}
                   >
                     {services[currentService]}
                   </span>
-                  <div className="absolute -bottom-2 left-0 w-1/2 h-1 bg-teal-600 transform origin-left animate-scale-x"></div>
+                  <div className="absolute -bottom-2 left-0 w-1/2 h-1 bg-[#17688C] transform origin-left animate-scale-x"></div>
                 </span>
                 <br />
                  <div className="mt-2">
@@ -450,7 +450,7 @@ export default function Hero() {
               <div className="flex items-center space-x-4 mt-0">
                 <button
                   onClick={() => setIsPlaying(!isPlaying)}
-                  className="text-teal-600 hover:text-teal-700 hover:bg-teal-50 rounded-full p-2 transition-all duration-200"
+                  className="text-[#17688C] hover:text-teal-700 hover:bg-teal-50 rounded-full p-2 transition-all duration-200"
                 >
                   {isPlaying ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
                 </button>
@@ -460,8 +460,8 @@ export default function Hero() {
                       key={index}
                       className={`h-2 rounded-full transition-all duration-300 cursor-pointer ${
                         index === currentService 
-                          ? "bg-teal-600 w-8" 
-                          : "bg-teal-200 w-2 hover:bg-teal-300"
+                          ? "bg-[#17688C] w-8" 
+                          : "bg-[#045b7c] w-2 hover:bg-[#106484]"
                       }`}
                       onClick={() => setCurrentService(index)}
                     />
@@ -473,17 +473,16 @@ export default function Hero() {
             {/* Description */}
             <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
               From stunning exhibitions to premium digital experiences, we transform ideas into
-              <span className="text-teal-600 font-semibold"> visual masterpieces </span>
+              <span className="text-[#17688C] font-semibold"> visual masterpieces </span>
               that captivate audiences and elevate brands.
             </p>
-
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href='/portfolio' className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 group flex items-center justify-center">
+              <Link href='/portfolio' className="bg-[#17688C] hover:[#106484] text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 group flex items-center justify-center">
                 Explore Our Work
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <Link href='/contact' className="border-2 border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 bg-transparent">
+              <Link href='/contact' className="border-2 border-[#17688C] text-[#17688C] hover:bg-text-[#17688C] hover:text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 bg-transparent">
                 Start Your Project
               </Link>
             </div>
@@ -496,10 +495,10 @@ export default function Hero() {
                 { number: "5+", label: "Years"},
               ].map((stat, index) => (
                 <div key={index} className="text-center group cursor-pointer">
-                  <div className="text-3xl font-bold text-teal-600 mb-2 group-hover:scale-110 transition-transform duration-300">
+                  <div className="text-3xl font-bold text-[#17688C] mb-2 group-hover:scale-110 transition-transform duration-300">
                     {stat.number}
                   </div>
-                  <div className="text-gray-600 group-hover:text-teal-600 transition-colors">{stat.label}</div>
+                  <div className="text-gray-600 group-hover:text-[#17688C] transition-colors">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -513,7 +512,7 @@ export default function Hero() {
                 {/* Octopus Logo Section */}
                 <div className="text-center mb-8">
                   <div className="relative inline-block">
-                    <div className="w-32 h-32 bg-teal-50 rounded-full flex items-center justify-center mb-4 group-hover:bg-teal-100 transition-colors duration-300">
+                    <div className="w-32 h-32 bg-[#c7d9e2] rounded-full flex items-center justify-center mb-4 group-hover:bg-[#7cacbe] transition-colors duration-300">
                       <div className="text-6xl animate-bounce-slow group-hover:animate-spin-slow transition-all duration-500">
                         🐙
                       </div>
@@ -522,15 +521,15 @@ export default function Hero() {
                     <div className="absolute -bottom-2 -left-2 w-4 h-4 bg-blue-500 rounded-full animate-pulse"></div> */}
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">Octopus Designs</h3>
-                  <p className="text-teal-600 font-medium">Creative Excellence</p>
+                  <p className="text-[#17688C] font-medium">Creative Excellence</p>
                 </div>
 
                 {/* Feature Grid */}
                 <div className="grid grid-cols-2 gap-4">
                   {[
-                    { icon: "🎨", title: "Design", color: "bg-teal-50 hover:bg-teal-100" },
+                    { icon: "🎨", title: "Design", color: "bg-teal-50 hover:bg-[#7cacbe]" },
                     { icon: "🚀", title: "Innovation", color: "bg-blue-50 hover:bg-blue-100" },
-                    { icon: "💡", title: "Strategy", color: "bg-teal-50 hover:bg-teal-100" },
+                    { icon: "💡", title: "Strategy", color: "bg-teal-50 hover:bg-[#7cacbe]" },
                     { icon: "⭐", title: "Quality", color: "bg-blue-50 hover:bg-blue-100" },
                   ].map((item, index) => (
                     <div
@@ -549,10 +548,10 @@ export default function Hero() {
                 <div className="mt-6 pt-6 border-t border-teal-100">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-2">
-                      <div className="w-3 h-3 bg-teal-500 rounded-full animate-pulse"></div>
+                      <div className="w-3 h-3 bg-[#71a4bc] rounded-full animate-pulse"></div>
                       <span className="text-sm text-gray-600">Ready to create</span>
                     </div>
-                    <Link href='/contact' className="text-teal-600 text-sm font-medium">Let's talk →</Link>
+                    <Link href='/contact' className="text-[#17688C] text-sm font-medium">Let's talk →</Link>
                   </div>
                 </div>
               </div>
@@ -563,7 +562,7 @@ export default function Hero() {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
-        <div className="flex flex-col mt-12 items-center space-y-2 text-teal-600 hover:text-teal-700 transition-colors cursor-pointer group">
+        <div className="flex flex-col mt-12 items-center space-y-2 text-[#17688C] hover:text-teal-700 transition-colors cursor-pointer group">
           <span className="text-sm font-medium">Scroll to explore</span>
           <ChevronDown className="h-6 w-6 animate-bounce group-hover:animate-pulse" />
         </div>
