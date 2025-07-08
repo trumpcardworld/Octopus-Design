@@ -482,7 +482,7 @@ export default function Hero() {
                 Explore Our Work
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <Link href='/contact' className="border-2 border-[#17688C] text-[#17688C] hover:bg-text-[#17688C] hover:text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 bg-transparent">
+              <Link href='/contact' className="border-2 border-[#17688C] text-[#17688C] hover:bg-text-[#71a4bc] hover:text-[#106484] px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 bg-transparent">
                 Start Your Project
               </Link>
             </div>
