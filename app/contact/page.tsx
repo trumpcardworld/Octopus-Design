@@ -287,11 +287,11 @@ export default function ContactPage() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-teal-50 border-teal-200 shadow-lg">
+              <Card className="bg-teal-50 border-[#c7d9e2] shadow-lg">
                 <CardContent className="p-6">
-                  <h3 className="text-lg font-semibold text-teal-800 mb-2">Need Immediate Help?</h3>
-                  <p className="text-teal-700 mb-4">Call us directly for urgent projects or quick questions.</p>
-                  <Button className="w-full bg-[#17688C] hover:bg-teal-700">
+                  <h3 className="text-lg font-semibold text-[#106484] mb-2">Need Immediate Help?</h3>
+                  <p className="text-[#106484] mb-4">Call us directly for urgent projects or quick questions.</p>
+                  <Button className="w-full bg-[#17688C] hover:bg-[#106484]">
                     <Phone className="h-4 w-4 mr-2" />
                     Call Now: +91 98765 43210
                   </Button>
