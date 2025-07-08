@@ -512,7 +512,7 @@ export default function Hero() {
                 {/* Octopus Logo Section */}
                 <div className="text-center mb-8">
                   <div className="relative inline-block">
-                    <div className="w-32 h-32 bg-[#c7d9e2] rounded-full flex items-center justify-center mb-4 group-hover:bg-[#7cacbe] transition-colors duration-300">
+                    <div className="w-32 h-32 bg-[#c7d9e2] rounded-full flex items-center justify-center mb-4 group-hover:bg-[#84acbe] transition-colors duration-300">
                       <div className="text-6xl animate-bounce-slow group-hover:animate-spin-slow transition-all duration-500">
                         <Image
                           src='/apple-touch-icon.png'
