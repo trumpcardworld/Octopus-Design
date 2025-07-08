@@ -568,7 +568,7 @@ export default function Hero() {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-10">
-        <div className="flex flex-col mt-12 items-center space-y-2 text-[#17688C] hover:text-teal-700 transition-colors cursor-pointer group">
+        <div className="flex flex-col mt-12 items-center space-y-2 text-[#17688C] hover:text-[#106484] transition-colors cursor-pointer group">
           <span className="text-sm font-medium ">Scroll to explore</span>
           <ChevronDown className="h-6 w-6 animate-bounce group-hover:animate-pulse" />
         </div>
