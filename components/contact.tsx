@@ -127,11 +127,11 @@ export default function Contact() {
                   <div>
                     <p className="font-medium">Address</p>
                     <p className="text-gray-600">
-                      123 Design Street
+                      Block A1, 104 to 108, Radhe Kishan
                       <br />
-                      Creative District
+                      Business Park, opp. HP petrol pump,
                       <br />
-                      Mumbai, India 400001
+                      Isanpur, Ahmedabad, Gujarat, India - 382443
                     </p>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ export default function Contact() {
                   <Phone className="h-5 w-5 text-[#17688C]" />
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-gray-600">+91 98765 43210</p>
+                    <p className="text-gray-600">+91 79254 32030</p>
                   </div>
                 </div>
 
@@ -148,7 +148,7 @@ export default function Contact() {
                   <Mail className="h-5 w-5 text-[#17688C]" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-gray-600">info@octopusdesigns.com</p>
+                    <p className="text-gray-600"> octopus@octopusdesigns.net</p>
                   </div>
                 </div>
 

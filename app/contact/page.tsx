@@ -208,13 +208,11 @@ export default function ContactPage() {
                     <div>
                       <p className="font-semibold text-gray-900">Our Office</p>
                       <p className="text-gray-600">
-                        123 Design Street
+                        Block A1, 104 to 108, Radhe Kishan
                         <br />
-                        Creative District
+                        Business Park, opp. HP petrol pump,
                         <br />
-                        Mumbai, Maharashtra 400001
-                        <br />
-                        India
+                        Isanpur, Ahmedabad, Gujarat, India - 38244
                       </p>
                     </div>
                   </div>
@@ -223,8 +221,8 @@ export default function ContactPage() {
                     <Phone className="h-6 w-6 text-[#17688C]" />
                     <div>
                       <p className="font-semibold text-gray-900">Phone</p>
-                      <p className="text-gray-600">+91 98765 43210</p>
-                      <p className="text-gray-600">+91 87654 32109</p>
+                      <p className="text-gray-600">+91 79254 32030</p>
+                     
                     </div>
                   </div>
 
@@ -232,8 +230,7 @@ export default function ContactPage() {
                     <Mail className="h-6 w-6 text-[#17688C]" />
                     <div>
                       <p className="font-semibold text-gray-900">Email</p>
-                      <p className="text-gray-600">info@octopusdesigns.com</p>
-                      <p className="text-gray-600">projects@octopusdesigns.com</p>
+                      <p className="text-gray-600">octopus@octopusdesigns.net</p>
                     </div>
                   </div>
 
@@ -293,7 +290,7 @@ export default function ContactPage() {
                   <p className="text-[#106484] mb-4">Call us directly for urgent projects or quick questions.</p>
                   <Button className="w-full bg-[#17688C] hover:bg-[#106484]">
                     <Phone className="h-4 w-4 mr-2" />
-                    Call Now: +91 98765 43210
+                    Call Now: +91 79254 32030
                   </Button>
                 </CardContent>
               </Card>
@@ -312,7 +309,7 @@ export default function ContactPage() {
             </p>
           </div>
           <div className="bg-gray-300 h-96 rounded-lg flex items-center justify-center">
-            <p className="text-gray-600">Interactive Map Coming Soon</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29381.82654890083!2d72.55902143476563!3d22.99701583712363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85004fd5b67d%3A0xbb4e8c9795f73f49!2sOCTOPUS%20DESIGNS%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1752043276708!5m2!1sen!2sin" width="1250" height="380" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </section>

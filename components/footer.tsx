@@ -108,16 +108,16 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center space-x-2">
-                <MapPin className="h-4 w-4" />
-                <span className="text-sm">123 Design Street, Mumbai, India</span>
+                <MapPin className="h-12 w-12" />
+                <span className="text-sm">Block A1, 104 to 108, Radhe Kishan  Business Park,  opp. HP petrol pump, Isanpur, Ahmedabad, Gujarat, India - 382443</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span className="text-sm">+91 98765 43210</span>
+                <span className="text-sm">+91 79254 32030</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span className="text-sm">info@octopusdesigns.com</span>
+                <span className="text-sm"> octopus@octopusdesigns.net</span>
               </div>
             </div>
           </div>
