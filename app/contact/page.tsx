@@ -309,7 +309,7 @@ export default function ContactPage() {
             </p>
           </div>
           <div className="bg-gray-300 h-96 rounded-lg flex items-center justify-center">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29381.82654890083!2d72.55902143476563!3d22.99701583712363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85004fd5b67d%3A0xbb4e8c9795f73f49!2sOCTOPUS%20DESIGNS%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1752043276708!5m2!1sen!2sin" width="1250" height="380" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29381.82654890083!2d72.55902143476563!3d22.99701583712363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85004fd5b67d%3A0xbb4e8c9795f73f49!2sOCTOPUS%20DESIGNS%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1752043276708!5m2!1sen!2sin" width="1210" height="380" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </section>
