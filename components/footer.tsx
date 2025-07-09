@@ -91,16 +91,7 @@ export default function Footer() {
                   Contact
                 </Link>
               </li>
-              {/* <li>
-                <Link href="/blog" className="hover:text-white">
-                  Blog
-                </Link>
-              </li> */}
-              {/* <li>
-                <Link href="/careers" className="hover:text-white">
-                  Careers
-                </Link>
-              </li> */}
+            
             </ul>
           </div>
 
