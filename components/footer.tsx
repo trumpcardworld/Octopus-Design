@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="flex items-center space-x-2">
                <Link href="/">
               <Image
-                src="/images/octopus-footer-logo.png"
+                src="/images/footer-logo.png"
                 alt="Octopus Designs"
                 width={150}
                 height={80}
