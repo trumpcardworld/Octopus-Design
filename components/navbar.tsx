@@ -26,7 +26,7 @@ export default function Navbar() {
               <Image
                 src="/images/octopus-logo.png"
                 alt="Octopus Designs"
-                width={140}
+                width={150}
                 height={80}
                 className=""
               />

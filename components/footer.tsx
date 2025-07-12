@@ -13,7 +13,7 @@ export default function Footer() {
               <Image
                 src="/images/octopus-footer-logo.png"
                 alt="Octopus Designs"
-                width={140}
+                width={150}
                 height={80}
                 className=""
               />
