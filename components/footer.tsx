@@ -11,14 +11,13 @@ export default function Footer() {
             <div className="flex items-center space-x-2">
                <Link href="/">
               <Image
-                src="/images/octopus-logo.png"
+                src="/images/octopus-footer-logo.png"
                 alt="Octopus Designs"
                 width={140}
                 height={80}
                 className=""
               />
               </Link>
-              
             </div>
             <p className="text-gray-400">
               Creating exceptional design solutions that help businesses make lasting impressions and achieve their

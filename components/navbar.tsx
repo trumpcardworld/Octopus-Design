@@ -24,7 +24,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
               <Image
-                src="/images/octopus-logo.jpg"
+                src="/images/octopus-logo.png"
                 alt="Octopus Designs"
                 width={140}
                 height={80}
