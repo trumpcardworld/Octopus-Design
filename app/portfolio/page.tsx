@@ -151,13 +151,7 @@ export default function PortfolioPage() {
                           {project.year}
                         </div> */}
                       </div>
-                      {/* <p className="text-gray-600 mb-3 line-clamp-2">{project.description}</p> */}
-                      {/* <div className="flex items-center text-sm text-[#17688C] font-medium mb-4">
-                        <Users className="h-4 w-4 mr-1" />
-                        Client: {project.client}
-                      </div> */}
-
-                    </CardContent>
+               </CardContent>
                   </Card>
                 ))}
               </div>
